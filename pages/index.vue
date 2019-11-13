@@ -25,15 +25,14 @@ export default {
   },
   head() {
     return {
-      title: 'Home Page',
+      title: "Home Page",
       meta: [
-        { name: "twitter:title", content: 'Nuxt fundamentals' },
-        { name: "twitter:description", content: 'Nuxt :)' },
+        { name: "twitter:title", content: "Nuxt fundamentals" },
+        { name: "twitter:description", content: "Nuxt :)" },
         { name: "twitter:image", content: "https://i.imgur.com/UYP2umJ.png" },
         { name: "twitter:card", content: "summary_large_image" }
       ]
     };
-    }
   },
   computed: {
     posts() {
