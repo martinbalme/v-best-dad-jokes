@@ -1,4 +1,5 @@
 # nuxt-fundamentals
+---
 
 > My smashing Nuxt.js project
 
