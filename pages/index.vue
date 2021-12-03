@@ -2,8 +2,8 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">nuxt-fundamentals</h1>
-      <h2 class="subtitle">My smashing Nuxt.js project</h2>
+      <h1 class="title">Best DAD jokes</h1>
+      <h2 class="subtitle">That Are So Bad And So Funny!</h2>
       <div class="links">
         <nuxt-link
           :key="post.id"
@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: "Home Page",
+      title: "Welcome to DAD joke land",
       meta: [
         { name: "twitter:title", content: "Nuxt fundamentals" },
         { name: "twitter:description", content: "Nuxt :)" },

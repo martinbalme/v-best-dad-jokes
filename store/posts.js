@@ -1,22 +1,76 @@
 export const state = () => ({
   all: [
     {
-      id: "balut",
-      title: "What is Balut?",
+      id: "snowman",
+      title: "Snowman",
       content:
-        "If someone placed balut on your plate, you might think they were serving you a hardboiled egg. That is, until you cracked it open and a fully intact duck embryo spilled out. Balut, considered a delicacy in many Asian countries, is produced when fertilized duck eggs are placed in warm sunlight. After about eight days, the eggs are held up to the light and checked to ensure that the budding embryo is ready. Then, the eggs are cooked and served with a dash of salt and a few squirts of lemon juice."
+        '"What do you call it when a snowman throws a tantrum?" "A meltdown."'
     },
     {
-      id: "whereIsIt",
-      title: "Where is the sign in button??",
+      id: "gym",
+      title: "Gym",
       content:
-        "I've stalked the forum for a while, reading everything closely, but today I decided that it was time to register as a user. So I did, this morning! But now, when I came back to the forum, I cannot seem to find the damn sign in button? WHERE IS IT???!??"
+        "Why do some couples go to the gym? Because they want their relationship to work out."
     },
     {
-      id: "how",
-      title: "How can I fix this problem?",
+      id: "water",
+      title: "Water",
       content:
-        "Please help me. I dont know what is the best way to fix my problem. I cant reproduce and I cant tell more info. Can someone help me asap??? I am in a hurry!!!"
+        "Why is cold water so insecure? Because it’s never called hot."
+    },
+    {
+      id: "lazy",
+      title: "Lazy shoes",
+      content:
+        "What kind of shoes does a lazy person wear? Loafers."
+    },
+    {
+      id: "timetravel",
+      title: "Time travel",
+      content:
+        "I was going to tell a time-traveling joke, but you guys didn’t like it."
+    },
+    {
+      id: "bread",
+      title: "Bread",
+      content:
+        "What did the two pieces of bread say on their wedding day? It was loaf at first sight."
+    },
+    {
+      id: "12inches",
+      title: "12 inches",
+      content:
+        '"Why can\'t a nose be 12 inches long? Because then it would be a foot."'
+    },
+    {
+      id: "chickenegg",
+      title: "Chicken or Egg",
+      content:
+        '"I ordered a chicken and an egg from Amazon. I\'ll let you know..."'
+    },
+    {
+      id: "knockknock",
+      title: "Knock-knock",
+      content:
+        '"Did you hear about the guy who invented the knock-knock joke? He won the \'no-bell\' prize."'
+    },
+    {
+      id: "psychiatrist",
+      title: "Psychiatrist",
+      content:
+        '"Why can\'t you hear a psychiatrist using the bathroom? Because the \'P\' is silent."'
+    },
+    {
+      id: "amazonprime",
+      title: "Amazon Prime",
+      content:
+        '"What do you call two monkeys that share an Amazon account?" "Prime mates."'
+    },
+    {
+      id: "santa",
+      title: "Santa",
+      content:
+        '"How much does it cost Santa to park his sleigh?" "Nothing, it\'s on the house."'
     }
   ]
 });
