@@ -27,8 +27,8 @@ export default {
     return {
       title: "Welcome to DAD joke land",
       meta: [
-        { name: "twitter:title", content: "Nuxt fundamentals" },
-        { name: "twitter:description", content: "Nuxt :)" },
+        { name: "twitter:title", content: "Welcome to DAD joke land" },
+        { name: "twitter:description", content: "Best Dad jokes on the internet" },
         { name: "twitter:image", content: "https://i.imgur.com/UYP2umJ.png" },
         { name: "twitter:card", content: "summary_large_image" }
       ]

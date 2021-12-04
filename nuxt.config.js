@@ -1,8 +1,5 @@
 export default {
-  mode: "spa",
-  generate: {
-    routes: ["/posts/balut", "/posts/whereIsIt", "/posts/how"]
-  },
+  ssr: false, // Disable server side rendering
   /*
    ** Headers of the page
    */

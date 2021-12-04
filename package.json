@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-fundamentals",
+  "name": "v-best-dad-jokes",
   "version": "1.0.0",
-  "description": "My smashing Nuxt.js project",
+  "description": "Best dad jokes",
   "author": "",
   "private": true,
   "scripts": {
