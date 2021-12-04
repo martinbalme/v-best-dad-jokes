@@ -45,9 +45,6 @@
 - Code API : https://github.com/bratosab/api-best-dad-jokes 
 - Swagger api : http://localhost:3001/explorer/
 
-# Infos :
-
-Le back-end est disponible sur internet, mais vous pouvez l'hoster chez vous si vous le souhaiter.
 
 ## Vous avez 1h30, bon courage !
 
