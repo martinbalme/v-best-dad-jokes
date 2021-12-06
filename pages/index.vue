@@ -25,8 +25,8 @@ export default {
   components: {
     Logo,
   },
-  data() {
-    this.getPosts();
+  async asyncData(context) {
+    await context.store.dispatch('posts/getPosts');
     return {};
   },
   head() {
