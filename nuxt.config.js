@@ -35,7 +35,9 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    "@nuxtjs/axios"
+  ],
   /*
    ** Build configuration
    */
@@ -44,5 +46,9 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+
+  axios: {
+    baseURL: 'http://127.0.0.1:3001',
+  },
 };

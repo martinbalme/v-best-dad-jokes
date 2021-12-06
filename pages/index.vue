@@ -8,9 +8,10 @@
         <nuxt-link
           :key="post.id"
           v-for="post in posts"
-          :to="{name: 'posts-id', params: {id: post.id}}"
+          :to="{ name: 'posts-id', params: { id: post.id } }"
           class="button--grey"
-        >{{post.title}}</nuxt-link>
+          >{{ post.title }}</nuxt-link
+        >
       </div>
     </div>
   </div>
@@ -18,27 +19,38 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
+import { mapActions } from "vuex";
 
 export default {
   components: {
-    Logo
+    Logo,
+  },
+  data() {
+    this.getPosts();
+    return {};
   },
   head() {
     return {
       title: "Welcome to DAD joke land",
       meta: [
         { name: "twitter:title", content: "Welcome to DAD joke land" },
-        { name: "twitter:description", content: "Best Dad jokes on the internet" },
+        {
+          name: "twitter:description",
+          content: "Best Dad jokes on the internet",
+        },
         { name: "twitter:image", content: "https://i.imgur.com/UYP2umJ.png" },
-        { name: "twitter:card", content: "summary_large_image" }
-      ]
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
     };
   },
   computed: {
     posts() {
       return this.$store.state.posts.all;
-    }
-  }
+    },
+  },
+  methods: {
+    ...mapActions("posts", ["getPosts"]),
+  },
 };
 </script>
 
